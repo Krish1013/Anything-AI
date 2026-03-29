@@ -29,6 +29,11 @@ connectDB();
 // ─────────────────────────────────────────────
 app.use(helmet()); // Sets secure HTTP headers
 
+app.get('/', (req, res) => {
+  res.send('API is running 🚀');
+});
+
+
 app.use(
   cors({
     origin: function (origin, callback) {
