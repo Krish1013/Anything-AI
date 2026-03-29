@@ -16,7 +16,7 @@ const app = express();
 
 const allowedOrigins = [
   'http://localhost:3000',
-  'https://anything-ai-chi.vercel.app',
+  'https://anything-ai-z8dj.vercel.app/',
 ];
 
 // ─────────────────────────────────────────────
